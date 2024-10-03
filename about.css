@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.nav{  
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(136, 138, 172);
+    
+}
+.logo{
+    font-size: 35px;
+    font-style:oblique;
+    color:maroon;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+}
+
+.nav ul li{
+    margin-right: 20px;
+    
+}
+.nav ul li a{
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    font-family:sans-serif;
+    text-decoration: none;
+}
+.nav ul li a:hover{
+    color: rgb(124, 15, 15);
+}
+button{
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.signin{
+    background-color: rgb(121, 19, 19);
+    border: none;
+    border-radius: 50px;
+ }
+.signin a{
+    text-decoration: none;
+    color:white ;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    color: #333;
+    margin-top: 2%;
+}
+
+.content{
+    flex-wrap: wrap;
+}
+
+ .content h2{
+    font-size: 40px;
+    color: #333;
+}
+
+p{
+    font-size: 25px;
+    color: #999;
+    padding: 50px;
+    line-height: 1;
+}
+
+.f p{
+    
+    color: rgb(192, 94, 94);
+    text-align: center;
+    padding: 30px;
+    bottom: 0;
+    width: 100%;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.one{
+    display: flex;
+
+}
+span{
+    font-size: 38px;
+    color: rgb(116, 197, 224);
+}

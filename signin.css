@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:lightblue;
+}
+
+.form {
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 18px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin-top: 10%;
+    margin-left: 40%;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(136, 138, 172);
+    
+}
+.logo{
+    font-size: 35px;
+    font-style:oblique;
+    color:maroon;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+}
+
+.nav ul li{
+    margin-right: 20px;
+    
+}
+.nav ul li a{
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    font-family:sans-serif;
+    text-decoration: none;
+}
+.nav ul li a:hover{
+    color: rgb(124, 15, 15);
+}
+button{
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.signin{
+    background-color: rgb(121, 19, 19);
+    border: none;
+    border-radius: 50px;
+ }
+.signin a{
+    text-decoration: none;
+    color:white ;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+.input{
+    margin-bottom: 10px
+}
+
+.input label {
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.input input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #755b5b;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color: #88697f;
+}
+
+.message {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.message a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.message a:hover {
+    text-decoration: underline;
+}

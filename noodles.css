@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(136, 138, 172);
+    
+}
+.logo{
+    font-size: 35px;
+    font-style:oblique;
+    color:maroon;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+}
+
+.nav ul li{
+    margin-right: 20px;
+    
+}
+.nav ul li a{
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    font-family:sans-serif;
+    text-decoration: none;
+}
+.nav ul li a:hover{
+    color: rgb(124, 15, 15);
+}
+button{
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.signin{
+    background-color: rgb(121, 19, 19);
+    border: none;
+    border-radius: 50px;
+ }
+.signin a{
+    text-decoration: none;
+    color:white ;
+}
+
+.ff{
+    display: flex;
+    margin-top: 2%;
+    justify-content: space-between;
+    padding: 50px;
+    flex-wrap: wrap;
+    }
+    
+.noo1,.noo2,.noo3,.noo4,.noo5,.noo6,.noo7,.noo8
+    {
+    background-color:rgb(80, 84, 84);
+    padding: 2px;
+    border-radius: 15px;
+    margin: 20px;
+    text-align: center;
+
+}
+.h1{
+    font-size: 30px;
+    font-family: Camnooa, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 5%;
+    margin-left: 40%;
+    color: rgb(230, 138, 18);
+}
+
+
+.btn{
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    font-weight: bolder;
+cursor: pointer;
+}
+    
+#ratings{
+        padding: 7px;
+        color: rgb(255, 186, 13);
+        background: rgb(219, 30, 30);
+        font-size: 14px;
+        border-radius: 15px;
+    }
+    
+img{
+    
+        border-radius: 50%;
+        transition: scale 0.5s linear;
+        scale: 0.8;
+    } 
+img:hover{
+        scale:0.9;
+    }
+p{
+        margin: 5px 0;
+        font-weight: 600;
+        color: white;
+        font-size: 28px;
+    }
+#price{
+        margin: 10;
+        color:lightblue;
+        font-size:20px;
+    }
+
+.offer{
+        font-size: 20px;
+        color: rgb(4, 189, 4);
+        text-align: left;
+        margin-left: 15px;
+    }
